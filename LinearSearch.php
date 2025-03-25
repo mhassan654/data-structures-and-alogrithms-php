@@ -1,6 +1,7 @@
 <?php
 
-function linearSearch($arr,$element){
+function linearSearch($arr,$element): int
+{
     $n =count($arr);
     $key=$element;
 
@@ -24,3 +25,5 @@ if ($index >0){
 }else{
     echo "Element not found";
 }
+
+
